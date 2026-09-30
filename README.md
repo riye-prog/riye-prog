@@ -1,8 +1,8 @@
 # chris / riye-prog
 
-i'm a 16-year-old developer who likes building software that has to work beyond the demo: algorithms, interfaces, game systems, servers, and databases.
+i'm a 16 y/o developer who builds software that has to work beyond the demo: algorithms, interfaces, game systems, servers, and databases.
 
-**7 years building software** · **about 2 years networking my own servers and managing databases**
+**7 years in swe** · **about 2 years networking my own servers and managing databases**
 
 ## what i've worked on
 
@@ -31,7 +31,3 @@ the construction removes eight parallel lines. each line gives a curl-free angul
 [![nash's problem and its one-page latex solution](assets/nash-problem.png)](assets/nash-problem.pdf)
 
 [open the pdf](assets/nash-problem.pdf) · [read the latex source](assets/nash-problem.tex)
-
-## get in touch
-
-[see my work on github](https://github.com/riye-prog) · [talk through a project on discord](https://discord.gg/qTuW9yw6db)
