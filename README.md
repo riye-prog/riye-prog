@@ -31,3 +31,18 @@ the construction removes eight parallel lines. each line gives a curl-free angul
 [![nash's problem and its one-page latex solution](assets/nash-problem.png)](assets/nash-problem.pdf)
 
 [open the pdf](assets/nash-problem.pdf) · [read the latex source](assets/nash-problem.tex)
+
+### burgers' n-wave
+
+the attached problem asks whether an n-wave with a $t^{-1}e^{-x^2/(4t)}$ factor satisfies $f_t+ff_x=f_{xx}$. that printed factor gives a nonzero residual:
+
+$$
+f_t+ff_x-f_{xx}=-\frac{xg}{2t^2(1+g)^2},
+\qquad g=t^{-1}e^{-x^2/(4t)}.
+$$
+
+the one-page derivation below shows the calculation and verifies the corrected $t^{-1/2}$ version.
+
+[![the burgers' n-wave calculation and correction](assets/burgers-n-wave.png)](assets/burgers-n-wave.pdf)
+
+[open the pdf](assets/burgers-n-wave.pdf) · [read the latex source](assets/burgers-n-wave.tex)

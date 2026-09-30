@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Burgers' N-Wave: A Correction}\par
+{\large checking the printed formula against the pde}\par
+\end{center}
+
+\textbf{the claim.} for $t>0$, the problem asks whether
+\[
+f(t,x)=\frac{x}{t}\,
+\frac{t^{-1}e^{-x^{2}/(4t)}}{1+t^{-1}e^{-x^{2}/(4t)}}
+\qquad\text{satisfies}\qquad
+f_t+ff_x=f_{xx}.
+\]
+the answer is no: the power $t^{-1}$ in the image produces a nonzero residual. the standard n-wave uses $t^{-1/2}$ instead.
+
+\textbf{a useful identity.} set $g=t^{-1}e^{-x^{2}/(4t)}$ and $h=1+g$. since $h_x=-xg/(2t)$, the given function can be written
+\[
+f=\frac{xg}{t(1+g)}=-2\frac{h_x}{h}.
+\]
+writing $v=\log h$ gives $f=-2v_x$. differentiating this expression and using $h_{xx}/h=v_{xx}+v_x^2$ yields
+\begin{align*}
+f_t+ff_x-f_{xx}
+&=-2\partial_x\!\left(v_t-v_{xx}-v_x^2\right)\\
+&=-2\partial_x\!\left(\frac{h_t-h_{xx}}{h}\right).
+\end{align*}
+thus the pde holds whenever $h$ solves the heat equation $h_t=h_{xx}$.
+
+\textbf{check the printed power.} direct differentiation gives
+\[
+g_t=g\left(-\frac1t+\frac{x^2}{4t^2}\right),
+\qquad
+g_{xx}=g\left(-\frac1{2t}+\frac{x^2}{4t^2}\right).
+\]
+therefore $h_t-h_{xx}=-g/(2t)$, and the identity above becomes
+\begin{align*}
+f_t+ff_x-f_{xx}
+&=\frac1t\partial_x\!\left(\frac{g}{1+g}\right)\\
+&=\frac{g_x}{t(1+g)^2}\\
+&=\boxed{-\frac{xg}{2t^2(1+g)^2}}.
+\end{align*}
+this is nonzero whenever $x\ne0$, so the formula in the image does not satisfy the stated pde.
+
+\textbf{the corrected n-wave.} replace $g$ by $\widetilde g=t^{-1/2}e^{-x^{2}/(4t)}$ and define
+\[
+\widetilde f(t,x)=\frac{x}{t}\,
+\frac{t^{-1/2}e^{-x^{2}/(4t)}}{1+t^{-1/2}e^{-x^{2}/(4t)}}.
+\]
+now
+\[
+\widetilde g_t
+=\widetilde g\left(-\frac1{2t}+\frac{x^2}{4t^2}\right)
+=\widetilde g_{xx},
+\]
+so $\widetilde h=1+\widetilde g$ satisfies $\widetilde h_t=\widetilde h_{xx}$. applying the identity to $\widetilde f=-2\widetilde h_x/\widetilde h$ gives
+\[
+\boxed{\widetilde f_t+\widetilde f\,\widetilde f_x=\widetilde f_{xx}}.
+\]
+
+\end{document}
