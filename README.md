@@ -22,15 +22,7 @@ i'm a 16 y/o developer who builds software that has to work beyond the demo: alg
 
 **1520 psat** · **1510 practice sat**
 
-i've worked through mit integration bee problems and enjoy topology as well as integration. here's a one-page solution to nash's problem:
-
-> find a subset $X\subset\mathbb R^3$ such that the curl-free vector fields on $\mathbb R^3\setminus X$, modulo gradient fields, form an eight-dimensional space.
-
-the construction removes eight parallel lines. each line gives a curl-free angular field with circulation around that line, and the eight circulation values distinguish all fields modulo gradients. the page below shows the fields and proves both independence and completeness.
-
-[![nash's problem and its one-page latex solution](assets/nash-problem.png)](assets/nash-problem.pdf)
-
-[open the pdf](assets/nash-problem.pdf) · [read the latex source](assets/nash-problem.tex)
+i've worked through mit integration bee problems and enjoy topology as well as integration. here's an example of one of my most recent proofs (technically a disproof):
 
 ### burgers' n-wave
 
