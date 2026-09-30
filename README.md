@@ -1,6 +1,6 @@
 # chris / riye-prog
 
-i'm a 16 y/o developer who builds software that has to work beyond the demo: algorithms, interfaces, game systems, servers, and databases.
+i'm a 16 y/o developer who builds software that excites me: algorithms, interfaces, game systems, servers, and databases.
 
 **7 years in swe** · **about 2 years networking my own servers and managing databases**
 
@@ -8,7 +8,7 @@ i'm a 16 y/o developer who builds software that has to work beyond the demo: alg
 
 - **[seedy](https://github.com/riye-prog/seedy):** minecraft seed recovery and world generation tools. it uses observed structures to narrow seed possibilities, then brings biome maps, structure locations, and loot predictions into an in-game interface.
 - **infrastructure:** networking and maintaining my own servers, plus database work.
-- **mathematical problem solving:** i enjoy problems where finding the right structure matters more than brute force.
+- **mathematics:** i enjoy studying mathematics in my free time lots lol.
 
 ## languages and tools
 
