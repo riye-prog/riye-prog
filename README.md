@@ -1,8 +1,8 @@
 # chris / riye-prog
 
-i'm a 16 y/o developer who builds software that excites me: algorithms, interfaces, game systems, servers, and databases.
+i'm a 17 y/o developer who builds software that excites me: algorithms, interfaces, game systems, servers, and databases.
 
-**7 years in swe** · **about 2 years networking my own servers and managing databases**
+**8 years in swe** · **about 3 years networking my own servers and managing databases**
 
 ## what i've worked on
 
