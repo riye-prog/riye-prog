@@ -22,19 +22,4 @@ i'm a 17 y/o developer who builds software that excites me: algorithms, interfac
 
 **1520 psat** · **1510 practice sat**
 
-i've worked through mit integration bee problems and enjoy topology as well as integration. here's an example of one of my most recent proofs (technically a disproof):
-
-### burgers' n-wave
-
-the attached problem asks whether an n-wave with a $t^{-1}e^{-x^2/(4t)}$ factor satisfies $f_t+ff_x=f_{xx}$. that printed factor gives a nonzero residual:
-
-$$
-f_t+ff_x-f_{xx}=-\frac{xg}{2t^2(1+g)^2},
-\qquad g=t^{-1}e^{-x^2/(4t)}.
-$$
-
-the one-page derivation below shows the calculation and verifies the corrected $t^{-1/2}$ version.
-
-[![the burgers' n-wave calculation and correction](assets/burgers-n-wave.png)](assets/burgers-n-wave.pdf)
-
-[open the pdf](assets/burgers-n-wave.pdf) · [read the latex source](assets/burgers-n-wave.tex)
+i've worked through mit integration bee problems and enjoy topology amongst other topics.
